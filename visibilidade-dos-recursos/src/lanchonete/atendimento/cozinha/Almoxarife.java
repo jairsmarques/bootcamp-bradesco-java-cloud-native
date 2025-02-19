@@ -1,4 +1,4 @@
-package lanchonete;
+package lanchonete.atendimento.cozinha;
 
 public class Almoxarife {
 
@@ -10,12 +10,12 @@ public class Almoxarife {
 		System.out.println("CONTROLANDO A DAIDA DOS ITENS");
 	}
 	
-	public void entregarIngredientes() {
+	void entregarIngredientes() {
 		System.out.println("ENTREGANDO INGREDIENTES");
 		//...?
 	}
 	
-	public void trocarGas() {
+	void trocarGas() {
 		System.out.println("ALMOXARIFE TROCANDO GAS");
 	}
 }
