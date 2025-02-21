@@ -1,4 +1,6 @@
-// criando o enum EstadoBrasileiro para ser usado em toda aplicação
+/*
+ * criando o enum EstadoBrasileiro para ser usado em toda aplicação
+ */ 
 public enum EstadoBrasileiro {
 	
 	SAO_PAULO ("SP", "São Paulo", 11),
