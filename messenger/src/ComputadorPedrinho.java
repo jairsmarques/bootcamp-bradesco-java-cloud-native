@@ -5,17 +5,17 @@ public class ComputadorPedrinho {
 		
 		System.out.println("MSN");
 		MSNMessenger msn = new MSNMessenger();
-		msn.enviarmensagem();
+		msn.enviarMensagem();
 		msn.receberMensagem();
 		
 		System.out.println("FACEBOOK");
 		FacebookMessenger fcb = new FacebookMessenger();
-		fcb.enviarmensagem();
+		fcb.enviarMensagem();
 		fcb.receberMensagem();
 		
 		System.out.println("TELEGRAM");
 		Telegram tlg = new Telegram();
-		tlg.enviarmensagem();
+		tlg.enviarMensagem();
 		tlg.receberMensagem();
 	}
 
